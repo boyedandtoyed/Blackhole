@@ -1,0 +1,34 @@
+.loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(75, 11, 179);
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+}
+
+.loader span {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 101;
+    animation: star 1s cubic-bezier(0, 0, 0, 1) 0s infinite alternate-reverse forwards;
+    /* animation: stretch 5s cubic-bezier(0, 0, 0, 1) 0s infinite alternate-reverse forwards; */
+    animation-delay: var(--delay);
+}
+
+.loader #blackhole {
+    --maxi: max(20vw, 20vh);
+    border-radius: 50%;
+    width: var(--maxi);
+    height: var(--maxi);
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    background-color: rgb(31, 25, 25);
+}
