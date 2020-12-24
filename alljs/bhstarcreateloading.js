@@ -24,6 +24,6 @@ function createstars(delay) {
     // span.style.setProperty("--opac", num7.toString());
     span.style.setProperty("--transX", num8.toString() + "px");
     span.style.setProperty("--transY", num9.toString() + "px");
-    span.style.setProperty("--delay", delay.toString() + "ms");
+    span.style.setProperty("--delay",(delay*5).toString() + "ms");
     loader.append(span);
 }
