@@ -15,7 +15,7 @@
     border-radius: 50%;
     position: absolute;
     z-index: 101;
-    animation: star 1s cubic-bezier(0, 0, 0, 1) 0s infinite alternate forwards;
+    animation: star 1s linear 0s infinite alternate forwards;
     /* animation: stretch 5s cubic-bezier(0, 0, 0, 1) 0s infinite alternate-reverse forwards; */
     animation-delay: var(--delay);
 }
