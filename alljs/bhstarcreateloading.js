@@ -18,6 +18,7 @@ function createstars(delay) {
     span.style.backgroundColor = colorVal;
     span.style.width = num4 + "px";
     span.style.height = num4 + "px";
+    span.style.animationDuration = (Math.round(Math.random() * 5)).toString() + "s" ;    
     span.style.setProperty("--colornow", colorVal);
     span.style.setProperty("--left", num5.toString() + "px");
     span.style.setProperty("--top", num6.toString() + "px");
