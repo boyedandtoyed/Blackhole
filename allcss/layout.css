@@ -48,8 +48,8 @@ section {
 section iframe {
     border-radius: 20px;
     display: inline-block;
-    width: min(100vw, 700px);
-aspect-ratio: 16 / 9;    
+    width: min(95vw, 700px);
+    aspect-ratio: 16 / 9;    
 }
 
 section:nth-of-type(2n) {
@@ -78,8 +78,6 @@ section p {
     box-sizing: border-box;
 }
 ::-webkit-scrollbar {
-opacity:0.3;
-transition: opacity 0.3s linear}
-::-webkit-scrollbar:hover{
-opacity:1;
+width:20px;
+background-color:red;
 }
