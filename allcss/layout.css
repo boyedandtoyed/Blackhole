@@ -77,3 +77,9 @@ section p {
     font-size: max(1.5vw, 14px);
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+opacity:0.3;
+transition: opacity 0.3s linear}
+::-webkit-scrollbar:hover{
+opacity:1;
+}
