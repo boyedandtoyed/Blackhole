@@ -56,7 +56,7 @@ section iframe {
 }
 
 .active {
-            transform: translate(50vw, 0);
+            transform: translate(0, 0);
             opacity: 1;
             
         }
