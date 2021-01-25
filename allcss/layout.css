@@ -50,7 +50,7 @@ section iframe {
     display: inline-block;
     width: min(95vw, 700px);
     aspect-ratio: 16 / 9;    
-    margin-left: -50vw;
+    transform: translate(-50vw, 0);
     opacity:0;
     transition: transform 0.2s ease, opacity 0.2s linear;   
 }
